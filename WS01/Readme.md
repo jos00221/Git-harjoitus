@@ -1,0 +1,1 @@
+Tämä on Git-harjoitus WS01 kansio
