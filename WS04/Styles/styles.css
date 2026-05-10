@@ -60,3 +60,24 @@ input[type="submit"] {
 input[type="submit"]:hover {
   background-color: #45a049;
 }
+.flex-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.box {
+  background-color: lightblue;
+  padding: 20px;
+  text-align: center;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+.grid-item {
+  background-color: lightgray;
+  padding: 20px;
+  text-align: center;
+}
